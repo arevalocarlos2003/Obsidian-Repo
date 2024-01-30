@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"b438749495970037","type":"group","x":-400,"y":-260,"width":720,"height":410,"label":"Tasks"},
+		{"id":"1ae96f069164b694","type":"text","text":">[!tip] Important & Urgent\n>```dataview\n>task\n>from \"\"\n>where contains(tags, \"#IU\") and !completed\n>```\n\n>[!todo] Not Important & Urgent\n>```dataview\n>task\n>from \"\"\n>where contains(tags,\"#NIU\") and !completed\n>```\n\n","x":-400,"y":-260,"width":720,"height":460}
+	],
+	"edges":[]
+}
